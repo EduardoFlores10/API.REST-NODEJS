@@ -1,0 +1,22 @@
+GET http://localhost:3500/api/estudiantes
+
+###
+
+POST http://localhost:3500/api/estudiantes
+Content-Type: application/json
+
+{
+    "nombre": "alfredo alberto",
+    "correo": "alfred3d@corro.de"
+}
+
+###
+PUT http://localhost:3500/api/estudiantes/616b4d2bc237defaeb70e278
+Content-Type: application/json
+
+{
+    "nombre": "Alfred Wingston"
+}
+
+###
+DELETE http://localhost:3500/api/estudiantes/616b4cffc237defaeb70e276
